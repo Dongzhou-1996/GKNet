@@ -1,2 +1,5 @@
 # GKNet
-GKNet: Graph-based Keypoints Network for Monocular Pose Estimation of Noncooperative Spacecraft
+
+Monocular Pose estimation of noncooperative spacecraft is significant for on-orbit service (OOS) tasks, such as satellite maintenance, space debris removal, and station assembly. Considering the high demands on pose estimation accuracy, mainstream monocular pose estimation methods typically consists of keypoints detector and PnP solver. However, current keypoint detectors remain vulnerable to structural symmetry and partial occlusion of noncooperative spacecrafts. To this end, we propose a graph-based keypoints network for the monocular pose estimation of noncooperative spacecraft, GKNet, which leverages the geometric constraint of keypoints graph. In order to better validate the effectiveness of the proposed method, we present a tiny-scale dataset for the spacecraft keypoints detection, named SKD, which consists of 3 spacecraft targets, 300 simulated image sequences, and 90k precise point-level annotations. Extensive experiment and ablation study have demonstrated the high accuracy and effectiveness of our GKNet, compared to the state-of-the-art spacecraft keypoints detector.
+
+Codes are coming soon ...
