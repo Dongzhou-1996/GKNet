@@ -51,7 +51,7 @@ Training on Satallite01 with GKNet.
 python train.py --name-model="GKNet" --categories=Satellite_01 --root_dit=/path/to/your/data
 ```
 ## Test
-Training on Satallite01 with GKNet.
+Testing on Satallite01 with GKNet.
 ```
 python test.py --name-model="GKNet" --categories=Satellite_01 --root_dit=/path/to/your/data --param-pth=/path/to/your/weights
 ```
