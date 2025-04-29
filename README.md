@@ -11,7 +11,7 @@ We train and evaluate our model on Python 3.10 and Pytorch 2.3.1 with CUDA 11.8.
 
 Please prepare the SKD dataset for training and evaluation.
 
-You can download the SKD dataset [HERE].
+You can download the SKD dataset [HERE](https://pan.baidu.com/s/1nQGjsgY6AGTI_V38qAQqrw?pwd=kdu7).
 
 Organize the dataset with the following directory structure:
 
@@ -39,6 +39,11 @@ Organize the dataset with the following directory structure:
 ├─val.json
 └─camera_matrix.txt
 ```
+`skeleton.pth` stores the keypoint edge definitions that are predefined according to geometric relationships. <br>
+`skeleton_pres.pth` stores the edges used for displaying keypoints. <br>
+`annotations.csv` records the satellite pose annotations.<br>
+<br>
+You can change the data used for training, validation, and testing by modifying the contents of `test.json`, `train.json`, and `val.json`.
 
 ## Train
 Training on Satallite01 with GKNet.
