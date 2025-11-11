@@ -13,6 +13,8 @@ Please prepare the SKD dataset for training and evaluation.
 
 You can download the SKD dataset [HERE](https://pan.baidu.com/s/1nQGjsgY6AGTI_V38qAQqrw?pwd=kdu7).
 
+And the dataset splitting files `train/val/test.json` are provided in `SKD` directory of this repository. 
+
 Organize the dataset with the following directory structure:
 
 ```bash
